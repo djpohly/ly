@@ -23,7 +23,7 @@ SRCS := $(call rwildcard,$(SRCD)/,*.c)
 OBJS := $(patsubst $(SRCD)/%.c,$(OBJD)/%.o,$(SRCS))
 DEPS := $(patsubst $(SRCD)/%.c,$(DEPD)/%.d,$(SRCS))
 
-CXXFLAGS := -Wall -g -I$(INCD)
+CXXFLAGS := -Wall -g -I$(INCD) -D_XOPEN_SOURCE=500
 LDDFLAGS := $(LIBS)
 
 .PHONY: all install uninstall clean distclean
