@@ -187,14 +187,14 @@ int main(void)
 				end_form(&form);
 				endwin();
 				free_list(de_list);
-				execl(LY_CMD_HALT, LY_CMD_HALT, "-h", "now", NULL);
+				execl(LY_CMD_HALT, LY_CMD_HALT, "-p", NULL);
 				break;
 
 			case KEY_F(2):
 				end_form(&form);
 				endwin();
 				free_list(de_list);
-				execl(LY_CMD_HALT, LY_CMD_HALT, "-r", "now", NULL);
+				execl(LY_CMD_HALT, LY_CMD_HALT, "-r", NULL);
 				break;
 
 			default:

@@ -25,7 +25,7 @@
 /* commands */
 #define LY_CMD_X "/usr/bin/X"
 #define LY_CMD_TPUT "/usr/bin/tput"
-#define LY_CMD_HALT "/sbin/shutdown"
+#define LY_CMD_HALT "/sbin/aa-shutdown"
 #define LY_CMD_XINITRC "~/.xinitrc"
 #define LY_CMD_MCOOKIE "/usr/bin/mcookie"
 #define LY_CMD_XSETUP "/etc/ly/xsetup.sh"
