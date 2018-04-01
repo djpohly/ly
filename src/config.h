@@ -38,7 +38,7 @@
 /* console */
 #define LY_CONSOLE_DEV "/dev/console"
 #define LY_CONSOLE_TERM "TERM=linux"
-#define LY_CONSOLE_TTY 2
+#define LY_CONSOLE_TTY 7
 
 /* pam breaks if you don't set the service name at "login" */
 #define LY_SERVICE_NAME "login"
